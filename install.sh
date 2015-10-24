@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "sudo apt-get update"
 echo "sudo apt-get install git"
