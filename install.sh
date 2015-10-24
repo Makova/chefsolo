@@ -1,6 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-echo "sudo apt-get update"
-echo "sudo apt-get install git"
-
+sudo apt-get update 
+sudo apt-get upgrade -y 
+sudo apt-get install git -y
+cd
 curl https://www.opscode.com/chef/install.sh | sudo bash
